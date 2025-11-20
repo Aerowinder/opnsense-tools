@@ -10,7 +10,7 @@ interface igc0 {
     # send ia-pd 7;
     request domain-name-servers;
     request domain-name;
-    script "/var/etc/dhcp6c_wan_script.sh";
+    script "/usr/local/bin/att-ipv6.sh";
 };
 id-assoc na 0 { };
 id-assoc pd 0 {
